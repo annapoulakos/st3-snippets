@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+# ********************** Information ******************** #
+#
+#   @filename:  $TM_FILENAME
+#   @package:   ${1:package.subpackages}
+#   @author:    ${2:Jim P} <${3:jimp@ebizresults.com}>
+#   @version:   ${4:0}.${5:1}
+#
+#   @changelog: 
+#
+# ******************************************************* #
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>file-comment</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

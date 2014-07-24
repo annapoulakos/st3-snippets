@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="accordion-group">
+	<div class="accordion-heading">
+		<a href="#${1:collapse-target}" class="accordion-toggle" data-toggle="collapse" data-parent="#${2:accordion-parent}">${3:Accordion Title}</a>
+	</div>
+	<div class="accordion-body collapse ${4:in}" id="${1:collapse-target}">
+		<div class="accordion-inner">
+			$0
+		</div>
+	</div>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>bs-a-grp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

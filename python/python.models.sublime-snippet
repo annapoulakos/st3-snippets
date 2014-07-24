@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+from django.db import models
+
+${1:Other imports}
+
+class ${2:ModelName}(models.Model):
+	${8:properties}
+
+	def __unicode__(self):
+		return '${6:format}' % (${7:values})	
+
+	class Meta:
+		app_label = '${3:app}'
+		verbose_name = '${4:singular}'
+		verbose_name_plural = '${5:plural}'
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>d.model</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.python</scope>
+</snippet>

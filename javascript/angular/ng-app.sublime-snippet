@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+;angular.module('${1:ngApplication}', [${2:injectables}])
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ng-app</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>Simple AngularJS application skeleton.</description>
+</snippet>

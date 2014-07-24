@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+class Meta:
+    app_label = '${1:application}'
+    verbose_name = '${2:Verbose Name}'
+    verbose_name_plural = '${2}s'
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>py-cm</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

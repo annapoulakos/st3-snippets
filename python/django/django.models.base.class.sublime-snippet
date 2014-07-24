@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+from django.db import models
+
+class ${1:ModelName}(models.Model, StringifyMixin):
+    """
+    ${2: Docblock}
+    """
+    ${3: model_vars}
+
+    ${0}
+
+    def ${4:output_function}(self):
+        return '${5:%s}' % (${6:variables})
+
+    class Meta:
+        app_label = '${7:app_label}'
+        verbose_name = '${8:Verbose Name}'
+        verbose_name_plural = '${8}s'
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>dj-model</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.python</scope>
+</snippet>

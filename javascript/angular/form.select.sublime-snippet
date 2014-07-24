@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<select ng-model="${1:ng_model}" ng-options="${2:option}.${3:option_key} for $2 in ${4:option_list}">
+	${5:<option value="">${6:Default selection}</option>}
+</select>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ngh-select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+	<description>AngularJS HTML select element simple binding.</description>
+</snippet>

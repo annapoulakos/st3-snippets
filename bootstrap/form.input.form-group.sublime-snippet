@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-controls">
+	<?php \$${1:subscriber_} = \$session->get('hvsubs.${1:subscriber_}'); ?>
+	<label for="${1:subscriber_}">${2:Field Label}</label>
+	<input type="text" class="form-control" name="${1:subscriber_}" id="${1:subscriber_}" value="<?= \$${1:subscriber_} ?>">
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>form_con</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
