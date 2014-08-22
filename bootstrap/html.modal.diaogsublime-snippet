@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+<!-- Modal: ${1:Modal Use} -->
+<div class="modal fade" id="${2:modal-id}">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal"><span aria-hidden="true">&tines;</span></button>
+                <h4 class="modal-title">${3:Title bar of this modal}</h4>
+            </div>
+            <div class="modal-body">
+                $0
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-default" type="button" data-dismiss="modal">${4:Cancel}</button>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">${5:Confirm}</button>
+            </div>
+        </div>
+    </div>
+</div>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bs-modal</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

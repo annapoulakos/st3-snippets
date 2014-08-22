@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+.directive('${1:directiveName}', ['${2:var}'${3:, 'var2'}, function(${2}${3}){
+    var ${1}Definition = {
+        $0
+    }
+
+    return ${1}Definition;
+}])
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ng-directive</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>
